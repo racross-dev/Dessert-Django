@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desserts - Home</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="{% url 'index' %}">
+          <img src="{% static 'images/logo.png' %}" alt="" />
+          <span>Desserts</span>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'top' %}">Top</a></li>
+          <li><a href="{% url 'colecciones' %}">Colecciones</a></li>
+          <li><a href="{% url 'contacto' %}">Contacto</a></li>
+          <li><a href="{% url 'sobre_nosotros' %}">Sobre Nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Home</h1>
+      <section>
+        <h2>Cafetería</h2>
+        <p>
+          Disfruta de una forma muy original de probar nuestras delicias en la
+          cafeteria Espacios con cómodos sillones, sillas y mesas, suave música
+          ambiental, área climatizada con Wi-Fi. ¡Te harán sentir realmente
+          especial! Ponemos a tu disposición la línea exclusiva de frapuccinos.
+          Hechos con nuestra receta especial y con la calidad que ya conoces…
+          ¡PRUÉBALOS! ¡Realmente te encantarán! CONOCE NUESTRA LÍNEA DE
+          SMOOTHIES Elaborados especialmente para ti. ¡Prueba nuestra gran
+          variedad! los precios de productos en cafeteria delicias pueden variar
+          por cargos de servicio e I.V.A.
+        </p>
+      </section>
+
+      <section>
+        <h2>Eventos</h2>
+        <p>
+          Mesa de postres: <strong>Desserts</strong> presente en tu evento.
+          Ofrece a tus invitados deliciosos postres y pasteles, con la calidad y
+          elegancia que ya conoces. o Planchas. o Bocadillos. o Bites Más
+          información Rebeca Garza 8122942043.
+        </p>
+        <a href="#">Rebecagarza@unidad1.com</a>
+      </section>
+
+      <section>
+        <img src="{% static 'images/muffins.jpg' %}" alt="Muffins" />
+      </section>
+    </main>
+
+    <footer>
+      <address>
+        <h4>
+          Hecho por alumnos de la
+          <abbr title="Universidad Autónoma de Nuevo León">UANL</abbr>
+        </h4>
+      </address>
+      <div>
+        <p>
+          Rubén Alexis Cruz Quiñones
+          <a href="https://github.com/orgs/PIA-FDW/people/Cross-87"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </p>
+        <p>
+          Kevin Israel Moreno Cura
+          <a href="https://github.com/orgs/PIA-FDW/people/keevin1410"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </p>
+        <p>
+          Ángel Saúl Davalos Frausto
+          <a href="https://github.com/orgs/PIA-FDW/people/SaulDavalos"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </p>
+        <p>
+          Emilio David Pedraza Macías
+          <a href="https://github.com/orgs/PIA-FDW/people/EDPM01"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </p>
+        <p>
+          Jessica
+          <a href="#"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

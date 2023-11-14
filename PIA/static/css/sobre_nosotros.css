@@ -1,0 +1,60 @@
+/* ESTILOS DEL MAIN */
+main {
+    width: min(70ch, 100% - 4rem);
+    margin-inline: auto;
+    color: #4e2121;
+}
+main h1 {
+    margin-top: 20px;
+}
+/* ESTILOS DEL SECTION DEL MAIN */
+section {
+    margin: 30px 0;
+}
+section:nth-child(2) {
+    margin-top: 0;
+}
+section ul {
+    margin-left: 20px;
+}
+section h2 {
+    color: #4e2121;
+    margin-bottom: 5px;
+}
+
+section:nth-child(5) .history {
+    display: inline-block;
+    vertical-align: middle; 
+    position: relative; 
+  }
+  
+  section:nth-child(5) .history div {
+    border-left: 4px solid #ff6464;
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    bottom: 0;
+    left: 5px
+  }
+  
+
+section:nth-child(5) .history p {
+    margin-left: 20px;
+}
+section:nth-child(5) .history p span {
+    position: relative;
+    color: #4e2121;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+section:nth-child(5) .history p span::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #ff6464;
+    top: 25%;
+    left: -19px;
+    border-radius: 100%;
+}
