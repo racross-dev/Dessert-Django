@@ -1,0 +1,19 @@
+{% load static %}
+
+<header>
+  <div class="logo">
+    <a href="{% url 'index' %}">
+      <img src="{% static 'images/logo.png' %}" alt="Logo de Desserts" />
+      <span>Desserts</span>
+    </a>
+  </div>
+  <nav>
+    <ul class="nav">
+      <li><a href="{% url 'index' %}">Home</a></li>
+      <li><a href="{% url 'top' %}">Productos</a></li>
+      <li><a href="{% url 'colecciones' %}">Colecciones</a></li>
+      <li><a href="{% url 'contacto' %}">Contacto</a></li>
+      <li><a href="{% url 'sobre_nosotros' %}">Sobre Nosotros</a></li>
+    </ul>
+  </nav>
+</header>

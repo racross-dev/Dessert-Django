@@ -79,25 +79,14 @@ WSGI_APPLICATION = 'PIA.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'piaprogra',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': 'crossMYSQL87',
     }
 }
-
-""" DATABASES = {
-    'default': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'PIA',
-        'USER': 'sa',
-        'PASSWORD': 'adminprueba',
-        'HOST': 'JEFEMAESTRO',
-        'PORT': '',
-        # 'OPTIONS': {
-        #    'driver': 'ODBC Driver 17 for SQL Server',
-        # },
-    }
-} """
-
 
 
 # Password validation

@@ -1,117 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Roboto+Slab&display=swap");
 
 /* ESTILOS EN GENERAL */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: system-ui;
-    font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  font-family: "Poppins";
 }
 body {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 img,
 svg,
 video {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* ESTILOS DE HEADER */
 header {
-    background-color: #ffc0c0;
-    color: #4e2121;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    padding: 0 20px;
-    z-index: 100;
+  background-color: #ffc0c0;
+  color: #4e2121;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 0 20px;
+  z-index: 100;
 }
 header .logo {
-    height: 100%;
+  height: 100%;
 }
 header .logo a {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 header .logo a img {
-    height: 75%;
+  height: 75%;
 }
 header .logo a span {
-    font-family: 'Roboto Slab';
-    font-weight: bold;
-    font-size: 1.6rem;
-    user-select: none;
-    color: #4e2121;
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  font-size: 1.6rem;
+  user-select: none;
+  color: #4e2121;
 }
 header .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style-type: none;
 }
 header .nav li a {
-    text-decoration: none;
-    color: #4e2121;
-    padding: 5px 15px;
-    border-radius: 30px;
+  text-decoration: none;
+  color: #4e2121;
+  padding: 5px 15px;
+  border-radius: 30px;
 }
 header .nav li a:hover {
-    background-color: #4e2121;
-    color: #ffc0c0;
-    transition: all 0.5s ease;
+  background-color: #4e2121;
+  color: #ffc0c0;
+  transition: all 0.5s ease;
 }
 
 h1 {
-    font-family: 'Gabarito' !important;
-    background: #4e2121;
-    color: white;
-    text-align: center;
-    margin-bottom: 1rem;
+  font-family: "Gabarito" !important;
+  background: #4e2121;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* ESTILOS AL FOOTER */
 footer {
-    color: #4e2121;
-    width: 100%;
-    background-color: #ffc0c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    gap: 10px;
-    text-transform: uppercase;
+  color: #4e2121;
+  width: 100%;
+  background-color: #ffc0c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  text-transform: uppercase;
 }
 footer abbr {
-    text-decoration: none;
+  text-decoration: none;
 }
 footer div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
 }
 footer div p {
-    display: flex;
-    gap: 5px;
-    text-transform: none;
+  display: flex;
+  gap: 5px;
+  text-transform: none;
 }
 footer ion-icon {
-    color: #4e2121;
-    font-size: 1.5rem;
-    transition: transform 0.5s ease;
+  color: #4e2121;
+  font-size: 1.5rem;
+  transition: transform 0.5s ease;
 }
 footer ion-icon:hover {
-    transform: scale(1.2);
-    
+  transform: scale(1.2);
 }
