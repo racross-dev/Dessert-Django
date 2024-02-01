@@ -5,8 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: system-ui;
-  font-family: "Poppins";
+  font-family: "Poppins", system-ui, sans-serif;
 }
 body {
   line-height: 1.5;
@@ -46,7 +45,7 @@ header .logo a img {
   height: 75%;
 }
 header .logo a span {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", system-ui, sans-serif;
   font-weight: bold;
   font-size: 1.6rem;
   user-select: none;
@@ -73,7 +72,7 @@ header .nav li a:hover {
 }
 
 h1 {
-  font-family: "Gabarito" !important;
+  font-family: "Gabarito", system-ui, sans-serif;
   background: #4e2121;
   color: white;
   text-align: center;
